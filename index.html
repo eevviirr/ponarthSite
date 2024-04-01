@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="components/header/Header.css">
+  <link rel="stylesheet" href="components/right menu/RightMenu.css">
+  <link rel="stylesheet" href="components/content/Content.css">
+  <link rel="stylesheet" href="components/buttons/Buttons.css">
+  <link rel="stylesheet" href="components/footer/Footer.css">
+  <link rel="" href="components/content/Content.js">
+  <link rel="stylesheet" href="components/FONTS/Text.css">
+  <link rel="stylesheet" href="components/right menu/DarkTheme.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Ponarth</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header> <!-- header -->
+      
+      <div class="all_menu">
+
+
+        <img class="logo" alt="" src="components/img/PonarthLogoBlack.png" width="140px">
+
+
+        <div class="header_menu">
+          <a class="headerButton" href="#sorta">Продукт</a>
+          <a class="headerButton" href="#history">История</a>
+          <a class="headerButton" href="#excursion">Экскурсии</a>
+          <a class="headerButton" href="#partner">Партнерство</a>
+          <a class="headerButton" href="#maps">На картах</a>
+          <a class="headerButton" href="#news">Новости</a>
+        </div>
+
+
+        <div class="social">
+          <a href="" target="_blank">
+            <img class="social_circle" url="" src="components/img/ponarth.png" alt="ponart">
+          </a>
+          <a href="https://vk.com/ponarth" target="_blank">
+            <img class="social_circle" src="components/img/vk.png" alt="vk">
+          </a>
+          <a href="https://t.me/ponarth_1849" target="_blank">
+            <img class="social_circle" src="components/img/tg.png" alt="tg">
+          </a>
+        </div>
+
+
+      </div>
+
+    </header>
+
+
+
+
+    <div class="content"> <!-- вся страница -->
+
+
+
+
+      <div class="first_page" id="sorta"> <!--  первый блок страницы -->
+
+
+        <div class="content_first_page"><!-- карусель товара -->
+
+          <div class="slider_produkt">
+            <div class="element_slider_produkt"></div>
+            <div class="element_slider_produkt"></div>
+            <div class="element_slider_produkt"></div>
+          </div>
+
+          <div class="text_slider"><!-- описание товара карусели -->
+
+            <h1>Продукт</h1>
+
+            <h2>
+              ЛИМОНАД <br> ЦИТРУСОВЫЙ
+            </h2>
+
+            <p class="classic">
+              Лимонад классический безалкогольный<br>цитрусовый. Сварен по рецептам 1849 года<br>только с
+              использованием
+              натуральных<br>высококачественных ингридиентов
+            </p>
+
+            <button>Где попробовать?</button>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="two_page" id="history"> <!--  второй блок страницы -->
+
+
+
+
+        <h1 class="white_text_center">
+          Узнайте<br>многовековую<br>Историю<br>Лимонадоварения с<br>1839 года
+        </h1>
+
+        <h2 class="white_text">
+          Крупнейшей лимонадоваренной компанией в довоенной <br> Восточной Пруссии был Кенигсбергский завод
+          "Понарт",
+          <br> основанный Йозефом Филлипом Шиффердеккером 15 <br> ноября 1839 года. Сейчас "Понарт" - это локальное
+          <br> акционерное общество по производству лимонадов в <br> развитие которого может принять каждый желающий
+        </h2>
+
+
+        <button class="btn_white">Узнать больше</button>
+
+      </div>
+
+
+
+      <div class="tree_page" id="excursion"> <!--  третий блок страницы -->
+
+
+
+        <div class="content_tree_page">
+
+          <div class="only_text_tree_page">
+            <h3 class="line_text">
+              ПОСЕТИТИЕ <br> СЕРДЦЕ ПРУССИИ
+            </h3>
+            <p>
+              Каждый вторник, среду и четверг <br>
+              12.00 15.00. 19.00
+            </p>
+          </div>
+
+          <div class="karusel">
+            <div class="calendar_card">
+
+              <div class="look-calendar">
+                <table id="calendar">
+                  <thead>
+                    <tr>
+                      <td><b>‹</b>
+                      <td colspan="5">
+                      <td><b>›</b>
+                    <tr class="dn">
+                      <td>Пн
+                      <td>Вт
+                      <td>Ср
+                      <td>Чт
+                      <td>Пт
+                      <td>Сб
+                      <td>Вс
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+
+              <div class="label">
+                <form>
+                  <input type="text" id="name" name="name" placeholder="Ваше имя" placeholder="Введите имя" required>
+
+                  <input type="tel" id="phone" name="phone" placeholder="Контактный номер телефона" required>
+
+                  <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="Количество персон"
+                    required>
+
+                  <button type="submit">Забронировать</button>
+                </form>
+              </div>
+            </div>
+
+
+            <div class="slider_tree_page">
+
+
+              <div class="slides">
+                <div id="slide-1">
+                  <img src="components/img/Image (22).png" alt="">
+                  <p class="text_slide_tree_page">#Знакомство с культурным
+                    наследием
+                  </p>
+                </div>
+                <div id="slide-2">
+                  <img src="components/img/Image (21).png" alt="">
+                  <p class="text_slide_tree_page">#Рецептуры довоенной Восточной Пруссии
+                  </p>
+                </div>
+                <div id="slide-3">
+                  <img src="components/img/Image (22).png" alt="">
+                  <p class="text_slide_tree_page">#8 дегустационных сортов лимонада</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+      <div class="four_page" id="partner"> <!-- четвёртый блок страницы -->
+
+
+
+        <div class="texter">
+          <h1>Понарт</h1>
+          <h2>для партнёров</h2>
+        </div>
+
+        <div class="content_four_page">
+
+          <!-- 1я -->
+
+          <div class="txt_four_page">
+            <h1 class="big_text_four_page">01</h1>
+            <p>Только натуральное сырье и<br> качественный продукт </p>
+          </div>
+
+          <img class="img_four" src="components/img/Image.png" alt="">
+
+          <!-- 2я -->
+
+          <img class="" src="components/img/Pivo2.png" alt="">
+
+          <div class="txt_four">
+            <h1 class="text_four_right">02</h1>
+            <p class="text_four_right">Всесторонняя поддержка <br>партнеров </p>
+          </div>
+
+          <!-- 3я -->
+
+          <div class="txt_four_page">
+            <h1 class="big_text_four_page">03</h1>
+            <p>14 лет варим вкусное пиво по <br> технологиям 19го века </p>
+          </div>
+
+          <img class="img_four" src="components/img/Pivo3.png" alt="">
+
+        </div>
+
+
+
+
+        <div class="forma_four_page">
+
+          <div class="all_form_four">
+
+            <h1 class="bochka">2 гостевые бочки лимонада кажому новому <br> партнеру от Понарт </h1>
+
+            <div class="form_four">
+              <form>
+                <input type="text" id="name" name="name" placeholder="Ваше имя" class="input_forma_four_page" required>
+
+                <input type="tel" id="phone" name="phone" placeholder="Контактный номер телефона" required>
+
+                <button class="button_forma_four_page" type="submit">Забронировать</button>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="five_page"> <!--  пятый блок страницы -->
+
+
+        <div class="content_five_page">
+
+          <div class="five_content"><!-- описание поиск партнеров -->
+
+            <div class="poisk">
+
+              <div class="text_five">
+
+                <h3>МЫ В ПОИСКЕ ПАРТНЕРОВ И СОТРУДНИКОВ</h3>
+
+              </div>
+
+              <img class="man" src="../img/bREWING.png" alt="">
+
+            </div>
+
+          </div>
+
+
+          <div class="menu_vakansii" onclick="toggleBlocks()"><!-- вакансия поиск партнеров -->
+
+            <div class="pod_menu">
+              <h2 class="color_red">Актуальные Вакансии</h2>
+              <img class="img_five" src="./components/img/Icon chevron down.png" alt="">
+            </div>
+
+
+
+          </div>
+          <div class="content_vakansii">
+
+
+            <div class="block_vakansii">
+
+              <div class="element_vakansii">
+
+                <div class="img_vakansii">
+                  <img src="components/img/pivovar.png" alt="">
+                </div>
+
+                <div class="opisanie_vakansii">
+
+                  <div class="all_items_vakansii">
+                    <h2>Название вакансии</h2>
+                    <p>описание вакансии</p>
+                    <div class="label">
+                      <form action="">
+                        <input type="text" placeholder="Фамилия Имя Отчество">
+                        <input type="text" placeholder="Ваш номер телефона">
+                        <button>Откликнуться</button>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="block_vakansii">
+
+              <div class="element_vakansii">
+
+                <div class="img_vakansii">
+                  <img src="components/img/pivovar.png" alt="">
+                </div>
+
+                <div class="opisanie_vakansii">
+
+                  <div class="all_items_vakansii">
+                    <h2>Название вакансии</h2>
+                    <p>описание вакансии</p>
+                    <div class="label">
+                      <form action="">
+                        <input type="text" placeholder="Фамилия Имя Отчество">
+                        <input type="text" placeholder="Ваш номер телефона">
+                        <button>Откликнуться</button>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="block_vakansii">
+
+              <div class="element_vakansii">
+
+                <div class="img_vakansii">
+                  <img src="components/img/pivovar.png" alt="">
+                </div>
+
+                <div class="opisanie_vakansii">
+
+                  <div class="all_items_vakansii">
+                    <h2>Название вакансии</h2>
+                    <p>описание вакансии</p>
+                    <div class="label">
+                      <form action="">
+                        <input type="text" placeholder="Фамилия Имя Отчество">
+                        <input type="text" placeholder="Ваш номер телефона">
+                        <button>Откликнуться</button>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+          <script>
+            function toggleBlocks() {
+              var contentBlock = document.querySelector('.content_vakansii');
+              if (contentBlock.style.maxHeight) {
+                contentBlock.style.maxHeight = null;
+              } else {
+                contentBlock.style.maxHeight = contentBlock.scrollHeight + 'px';
+              }
+            }
+          </script>
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+      <div class="six_page" id="maps">
+
+        <div class="content_six_page">
+
+
+          <div class="text_six_block">
+            <h1>Понарт</h1>
+            <h2>на карте</h2>
+          </div>
+
+
+          <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/org/pivovarenny_zavod_ponart/155958426088/?utm_medium=mapframe&utm_source=maps"
+              style="color:#eee;font-size:12px;position:absolute;top:0px;">Пивоваренный завод Понарт</a>
+            <a href="https://yandex.ru/maps/22/kaliningrad/category/landmark_attraction/89683368508/?utm_medium=mapframe&utm_source=maps"
+              style="color:#eee;font-size:12px;position:absolute;top:14px;">Достопримечательность в
+              Калининграде
+            </a>
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?ll=20.487105%2C54.677745&mode=search&oid=155958426088&ol=biz&z=15"
+              width="100%" height="800" allowfullscreen="true" style="position:relative;">
+            </iframe>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+      <div class="seven_page" id="news">
+
+        <div class="content_seven_page">
+
+          <div class="text_seven_block">
+            <h1 class="text_seven_block">Новости</h1>
+            <h2>производства</h2>
+          </div>
+
+          <div class="slider_seven_page">
+
+            <div class="slides_seven_pages">
+              <div id="slide-1">
+                <div class="img_slide_seven_page"></div>
+                <p class="text_slide_seven_page">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere fuga
+                  minima eos, incidunt, ullam nostrum distinctio laboriosam tenetur fugit est magnam iure voluptatem
+                  deserunt. Quidem facilis optio eius vero reprehenderit!</p>
+              </div>
+              <div id="slide-2">
+                <div class="img_slide_seven_page"></div>
+                <p class="text_slide_seven_page">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere fuga
+                  minima eos, incidunt, ullam nostrum distinctio laboriosam tenetur fugit est magnam iure voluptatem
+                  deserunt. Quidem facilis optio eius vero reprehenderit!</p>
+              </div>
+              <div id="slide-3">
+                <div class="img_slide_seven_page"></div>
+                <p class="text_slide_seven_page">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere fuga
+                  minima eos, incidunt, ullam nostrum distinctio laboriosam tenetur fugit est magnam iure voluptatem
+                  deserunt. Quidem facilis optio eius vero reprehenderit!</p>
+              </div>
+              <div id="slide-4">
+                <div class="img_slide_seven_page"></div>
+                <p class="text_slide_seven_page">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere fuga
+                  minima eos, incidunt, ullam nostrum distinctio laboriosam tenetur fugit est magnam iure voluptatem
+                  deserunt. Quidem facilis optio eius vero reprehenderit!</p>
+              </div>
+              <div id="slide-5">
+                <div class="img_slide_seven_page"></div>
+                <p class="text_slide_seven_page">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere fuga
+                  minima eos, incidunt, ullam nostrum distinctio laboriosam tenetur fugit est magnam iure voluptatem
+                  deserunt. Quidem facilis optio eius vero reprehenderit!</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <div class="right_menu"> <!--  right menu  -->
+
+      
+
+        <a href="">
+          <div class="account"></div>
+        </a>
+
+        <button id="themeToggle" class="night_light_mode"></button>
+
+     
+    </div>
+
+  </div>
+
+  <footer>
+
+    <div class="all_items_footer">
+
+      <div class="logo_footer"></div>
+
+      <div class="info_footer">
+        <a class="footerButton" href="">Untpappd</a>
+        <a class="footerButton" href="">VK</a>
+        <a class="footerButton" href="">Telegram</a>
+      </div>
+      <div class="info_footer">
+        <a class="footerButton" href="#history">История</a>
+        <a class="footerButton" href="#sorta">Продукт</a>
+        <a class="footerButton" href="#maps">На картах</a>
+        <a class="footerButton" href="#news">Новости</a>
+      </div>
+      <div class="info_footer">
+        <a class="footerButton" href="#partner">Партнерам</a>
+        <a class="footerButton" href="">Хочу в команду</a>
+        <a class="footerButton" href="#excursion">Экскурсии</a>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <script src="components/content/Content.js"></script>
+  <script src="components/right menu/RightMenu.js"></script>
+</body>
+
+</html>

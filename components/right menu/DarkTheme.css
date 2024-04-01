@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a.dark-theme{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+h1.dark-theme{
+    color: #ffffff;
+    font-size: 96px;
+    font-family: "Roboto";
+    font-weight: 600;
+    line-height: 100px;
+}
+
+h2.dark-theme{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 600;
+    line-height: 42px;
+}
+
+h3.dark-theme{
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Roboto";
+    line-height: 62px;
+}
+
+p.dark-theme{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Roboto";
+    line-height: 23px;
+    text-align: justify;
+}

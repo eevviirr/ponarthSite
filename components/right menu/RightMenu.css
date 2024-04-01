@@ -1,0 +1,35 @@
+/* first_page right_menu */
+
+.right_menu {
+    width: 5vh;
+    height: 100%;
+    border-radius: 2px;
+    box-shadow: 2px 0px 10px rgba(3, 3, 3, 0.1);
+    justify-self: right;
+    position: relative;
+}
+
+.account {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-image: url(../img/profile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.night_light_mode {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-image: url(../img/Icon\ brightness\ 6.png);
+    background-repeat:no-repeat ;
+     margin: 0 auto;
+}
+
+.text_slide_seven_page{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+:root {
+    --back: #000;
+}
+
+p {
+    font-weight: 500;
+}
+
+img{
+    background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+   
+h1{
+    text-shadow: 5px 5px rgb(199, 194, 194);
+}

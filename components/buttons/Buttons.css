@@ -1,0 +1,19 @@
+.btn_black {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_white {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px 20px;
+    width: 30%;
+    margin: 0 auto;
+}
