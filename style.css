@@ -26,3 +26,27 @@ img{
 h1{
     text-shadow: 5px 5px rgb(199, 194, 194);
 }
+
+#vk_post{
+    width: 1000px !important;
+}
+.mySwiper2{
+    width: 100%;
+}
+.huyna{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background: #000;
+}
+.swiper-slide-shadow-left{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) !important;
+}
+.swiper-slide-shadow-right{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) !important;
+}
